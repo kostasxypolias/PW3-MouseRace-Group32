@@ -2,8 +2,14 @@
 
 This repository contains the Arduino control code used for the Project Week 3 Mouse Race project.
 
+# PW3-MouseRace-Group32
+
+This repository contains the Arduino control code used for the Project Week 3 Mouse Race project. The aim of this project was to create a battery-powered mouse capable of autonomously racing around a track in as little time as possible.
+
 ## Repository contents
-- `ArduinoCode.ino` – main Arduino code for the mouse
+- `PW3_GR-1.0.0.INO` – original Arduino code
+- `PW3_GR-1.0.1.INO` – bug-fixed version with a maximum duty cycle limit
+- `PW3_GR-1.1.0.INO` – updated version with increased straight-line speed
 - `README.md` – repository description and version history
 
 ## Project summary
@@ -12,3 +18,10 @@ The project involved developing an autonomous battery-powered mouse capable of f
 ## Version history
 ### v1.0.0
 - Initial upload of the original Arduino code
+
+### v1.0.1
+- Added a maximum duty cycle limit to prevent the proportional controller exceeding the PWM limit
+
+### v1.1.0
+- Increased speed on the straights
+
